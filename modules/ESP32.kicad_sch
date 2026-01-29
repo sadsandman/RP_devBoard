@@ -824,14 +824,6 @@
 		(uuid "e075b666-13ab-4329-8d39-6b2c39a19c00")
 	)
 	(no_connect
-		(at 114.3 72.39)
-		(uuid "1055be93-01fb-496e-a451-673ae814c1c7")
-	)
-	(no_connect
-		(at 144.78 69.85)
-		(uuid "498ca902-65b5-4970-883a-131b3f835b52")
-	)
-	(no_connect
 		(at 114.3 85.09)
 		(uuid "51f65439-1d8d-4848-921a-e50db835c372")
 	)
@@ -846,10 +838,6 @@
 	(no_connect
 		(at 114.3 80.01)
 		(uuid "8f7bb0b2-648a-4681-b323-2f36d3a99931")
-	)
-	(no_connect
-		(at 144.78 67.31)
-		(uuid "9e9c92eb-9d7b-4a66-ac84-617a5e2993a5")
 	)
 	(no_connect
 		(at 114.3 74.93)
@@ -971,6 +959,16 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 69.85) (xy 152.4 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8780c18a-616d-4bfd-92c3-97d229946d4b")
+	)
+	(wire
+		(pts
 			(xy 105.41 55.88) (xy 105.41 54.61)
 		)
 		(stroke
@@ -1011,6 +1009,16 @@
 	)
 	(wire
 		(pts
+			(xy 107.95 72.39) (xy 114.3 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ccb1ca52-bcf8-4adf-b825-9d405270c7d3")
+	)
+	(wire
+		(pts
 			(xy 105.41 41.91) (xy 83.82 41.91)
 		)
 		(stroke
@@ -1038,6 +1046,16 @@
 			(type default)
 		)
 		(uuid "e2b4eeb7-3e86-4133-a9be-71dd879256b1")
+	)
+	(wire
+		(pts
+			(xy 72.39 67.31) (xy 83.82 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3c9c47f-2cb6-47f3-914b-3d4c310f63b7")
 	)
 	(wire
 		(pts
@@ -1071,6 +1089,16 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 67.31) (xy 152.4 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0d17068-51d8-4e0a-8d9d-ac7c893e620f")
+	)
+	(wire
+		(pts
 			(xy 83.82 69.85) (xy 83.82 67.31)
 		)
 		(stroke
@@ -1088,6 +1116,39 @@
 			(type default)
 		)
 		(uuid "fa718fac-d66c-4199-b395-72a38708a4a2")
+	)
+	(hierarchical_label "ESP_BOOT"
+		(shape input)
+		(at 107.95 72.39 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1e8b469b-88f2-4c1e-a889-489cafc4b4d0")
+	)
+	(hierarchical_label "ESP_TX"
+		(shape output)
+		(at 152.4 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "28a59768-d25f-490f-b19f-f303bd56be23")
+	)
+	(hierarchical_label "ESP_RESET"
+		(shape input)
+		(at 72.39 67.31 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "54c7fe1d-f35c-47a6-997f-0cb964a4e8e6")
 	)
 	(hierarchical_label "ESP_USB_DP"
 		(shape bidirectional)
@@ -1154,6 +1215,17 @@
 			(justify right)
 		)
 		(uuid "c7e03191-49db-43ab-a60a-1c40e2d8a9db")
+	)
+	(hierarchical_label "ESP_RX"
+		(shape input)
+		(at 152.4 67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e3cd773c-267f-47fb-b564-c4ceb90cacf7")
 	)
 	(hierarchical_label "ESP_MOSI"
 		(shape output)

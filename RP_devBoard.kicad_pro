@@ -645,6 +645,14 @@
     [
       "ae60b799-78d5-45ce-add1-9e61037e964b",
       "ESP32"
+    ],
+    [
+      "f8e830a9-65ad-4756-94d1-9cd0b31f7075",
+      "COM_PORTS"
+    ],
+    [
+      "9adae0f7-1fcf-42eb-abb9-6e0835169d1e",
+      "BUCK"
     ]
   ],
   "text_variables": {}

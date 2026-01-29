@@ -4092,7 +4092,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 130.81) (xy 64.77 132.08)
+			(xy 58.42 130.81) (xy 58.42 132.08)
 		)
 		(stroke
 			(width 0)
@@ -4112,7 +4112,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 130.81) (xy 100.33 130.81)
+			(xy 82.55 130.81) (xy 100.33 130.81)
 		)
 		(stroke
 			(width 0)
@@ -4862,7 +4862,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 130.81) (xy 64.77 130.81)
+			(xy 64.77 130.81) (xy 58.42 130.81)
 		)
 		(stroke
 			(width 0)
@@ -5120,6 +5120,16 @@
 		)
 		(uuid "29290834-0ef8-4d76-a529-d19fa76b4fc0")
 	)
+	(label "RP_NRESET"
+		(at 83.82 130.81 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3627d8f9-32b7-4751-9a3b-a0c13fcbd8fb")
+	)
 	(label "QSPI_SD2"
 		(at 210.82 132.08 0)
 		(effects
@@ -5300,6 +5310,17 @@
 		)
 		(uuid "fc18c734-a4f2-426e-8b0c-f339204a9a92")
 	)
+	(hierarchical_label "RPB_SWO"
+		(shape output)
+		(at 38.1 179.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1047e3c3-95e2-46f5-b9a0-8d7f2b3da4e1")
+	)
 	(hierarchical_label "USB_DM"
 		(shape input)
 		(at 177.8 58.42 0)
@@ -5344,7 +5365,7 @@
 		)
 		(uuid "21018a32-25ba-43b4-91d3-858ffa8858ec")
 	)
-	(hierarchical_label "RPB_CLK"
+	(hierarchical_label "RPB_SPI_CLK"
 		(shape output)
 		(at 160.02 69.85 0)
 		(effects
@@ -5355,7 +5376,7 @@
 		)
 		(uuid "370bfd98-5641-4052-9fb6-77f521824cfa")
 	)
-	(hierarchical_label "RPB_SS"
+	(hierarchical_label "RPB_SPI_SS"
 		(shape output)
 		(at 160.02 72.39 0)
 		(effects
@@ -5421,7 +5442,7 @@
 		)
 		(uuid "ac5b1d75-4af3-41f6-9556-f982ef8885f5")
 	)
-	(hierarchical_label "RPB_MOSI"
+	(hierarchical_label "RPB_SPI_MOSI"
 		(shape input)
 		(at 160.02 67.31 0)
 		(effects
@@ -5432,7 +5453,7 @@
 		)
 		(uuid "ca580bf0-8926-4500-8df3-cf431e0dd030")
 	)
-	(hierarchical_label "RPB_MISO"
+	(hierarchical_label "RPB_SPI_MISO"
 		(shape output)
 		(at 160.02 64.77 0)
 		(effects
@@ -5442,6 +5463,28 @@
 			(justify left)
 		)
 		(uuid "ceb185c0-31ed-4daf-8409-1510c1f59cdd")
+	)
+	(hierarchical_label "RPB_I2C_SDA"
+		(shape output)
+		(at 38.1 182.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d86a22f4-d29d-4cfa-8cee-39f2c7d68630")
+	)
+	(hierarchical_label "RPB_I2C_SCL"
+		(shape output)
+		(at 38.1 186.69 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fdc1718a-9b49-4779-8373-dddf35608f18")
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -6577,7 +6620,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 64.77 132.08 0)
+		(at 58.42 132.08 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6586,7 +6629,7 @@
 		(fields_autoplaced yes)
 		(uuid "4d9e4581-3e59-4f6b-9ce3-81d3ac383994")
 		(property "Reference" "#PWR018"
-			(at 64.77 138.43 0)
+			(at 58.42 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6595,7 +6638,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 64.77 137.16 0)
+			(at 58.42 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6603,7 +6646,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 64.77 132.08 0)
+			(at 58.42 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6612,7 +6655,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 64.77 132.08 0)
+			(at 58.42 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6621,7 +6664,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 64.77 132.08 0)
+			(at 58.42 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8353,7 +8396,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 74.93 130.81 90)
+		(at 68.58 130.81 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8361,7 +8404,7 @@
 		(dnp no)
 		(uuid "b5529637-da96-4c55-be44-ec1a282dc7b6")
 		(property "Reference" "R7"
-			(at 74.93 128.778 90)
+			(at 68.58 128.778 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8369,7 +8412,7 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 74.93 133.096 90)
+			(at 68.58 133.096 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8377,7 +8420,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 74.93 132.588 90)
+			(at 68.58 132.588 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8386,7 +8429,7 @@
 			)
 		)
 		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf"
-			(at 74.93 130.81 0)
+			(at 68.58 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8395,7 +8438,7 @@
 			)
 		)
 		(property "Description" "RES SMD 1K OHM 1% 1/10W 0402"
-			(at 74.93 130.81 0)
+			(at 68.58 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8404,7 +8447,7 @@
 			)
 		)
 		(property "Part Number" "ERJ-2RKF1001X"
-			(at 74.93 130.81 90)
+			(at 68.58 130.81 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8413,7 +8456,7 @@
 			)
 		)
 		(property "Provider" "Digikey"
-			(at 74.93 130.81 90)
+			(at 68.58 130.81 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8438,7 +8481,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 83.82 130.81 0)
+		(at 77.47 130.81 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8447,7 +8490,7 @@
 		(fields_autoplaced yes)
 		(uuid "b94ecbc8-0f85-4991-bc89-7ce530ada0fd")
 		(property "Reference" "SW1"
-			(at 83.82 123.19 0)
+			(at 77.47 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8455,7 +8498,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 83.82 125.73 0)
+			(at 77.47 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8463,7 +8506,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 83.82 125.73 0)
+			(at 77.47 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8472,7 +8515,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 83.82 125.73 0)
+			(at 77.47 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8481,7 +8524,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 83.82 130.81 0)
+			(at 77.47 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)

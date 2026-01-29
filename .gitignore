@@ -36,3 +36,7 @@ fp-info-cache
 # _autosave-*
 #
 *backups
+
+# Archivos de bloqueo (Lock files)
+.~lock.*
+*.lock
