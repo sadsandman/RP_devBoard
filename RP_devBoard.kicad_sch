@@ -5,232 +5,6 @@
 	(uuid "3efb3214-cf20-4475-a403-c426a77bfef6")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Sensor:BME280"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at -8.89 11.43 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "BME280"
-				(at 7.62 11.43 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Package_LGA:Bosch_LGA-8_2.5x2.5mm_P0.65mm_ClockwisePinNumbering"
-				(at 38.1 -11.43 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bme280-ds002.pdf"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "3-in-1 sensor, humidity, pressure, temperature, I2C and SPI interface, 1.71-3.6V, LGA-8"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "Bosch pressure humidity temperature environment environmental measurement digital"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "*LGA*2.5x2.5mm*P0.65mm*Clockwise*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "BME280_0_1"
-				(rectangle
-					(start -10.16 10.16)
-					(end 10.16 -10.16)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "BME280_1_1"
-				(pin power_in line
-					(at -2.54 15.24 270)
-					(length 5.08)
-					(name "VDDIO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -2.54 -15.24 90)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 2.54 15.24 270)
-					(length 5.08)
-					(name "VDD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 2.54 -15.24 90)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 15.24 7.62 180)
-					(length 5.08)
-					(name "SDO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 15.24 2.54 180)
-					(length 5.08)
-					(name "SCK"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 15.24 -2.54 180)
-					(length 5.08)
-					(name "SDI"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 15.24 -7.62 180)
-					(length 5.08)
-					(name "CSB"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:+3V3"
 			(power)
 			(pin_numbers
@@ -1003,112 +777,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Sensor:BME280")
-		(at 106.68 161.29 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "460ef30e-59f9-4487-b16a-146860183f92")
-		(property "Reference" "U3"
-			(at 95.25 160.0199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "BME280"
-			(at 95.25 162.5599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Package_LGA:Bosch_LGA-8_2.5x2.5mm_P0.65mm_ClockwisePinNumbering"
-			(at 144.78 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bme280-ds002.pdf"
-			(at 106.68 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "3-in-1 sensor, humidity, pressure, temperature, I2C and SPI interface, 1.71-3.6V, LGA-8"
-			(at 106.68 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" ""
-			(at 106.68 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Provider" ""
-			(at 106.68 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "fffb398f-c396-46da-86e5-6f4345e259b2")
-		)
-		(pin "8"
-			(uuid "e8e4e692-e630-466d-a3bf-a7d9ebe16a9a")
-		)
-		(pin "7"
-			(uuid "b4244f10-33af-4741-a39f-1cfbe63ba25b")
-		)
-		(pin "5"
-			(uuid "00a0ab17-bc66-4ba4-84d7-74e21bd46d76")
-		)
-		(pin "4"
-			(uuid "286a9d1a-c19a-472b-845f-10a5880f78e8")
-		)
-		(pin "3"
-			(uuid "15447331-5e20-479c-b2df-322f11b8f7b4")
-		)
-		(pin "6"
-			(uuid "fa609af5-3358-463d-976b-9796466f281a")
-		)
-		(pin "1"
-			(uuid "6f5c204e-75cb-47ff-8f55-bcc55db04242")
-		)
-		(instances
-			(project ""
-				(path "/3efb3214-cf20-4475-a403-c426a77bfef6"
-					(reference "U3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 106.68 26.67 0)
 		(unit 1)
@@ -1490,7 +1158,7 @@
 	)
 	(sheet
 		(at 24.13 31.75)
-		(size 26.67 66.04)
+		(size 26.67 102.87)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1514,7 +1182,7 @@
 			)
 		)
 		(property "Sheetfile" "modules/COM_PORTS.kicad_sch"
-			(at 24.13 98.3746 0)
+			(at 24.13 135.2046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1665,6 +1333,126 @@
 		(pin "RP_NRESET" output
 			(at 50.8 87.63 0)
 			(uuid "c63fa70d-2cab-45d4-9357-a0938f81f748")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MK_AIN" input
+			(at 50.8 96.52 0)
+			(uuid "132c393a-86fd-4701-b6a3-c4c748cf0f1f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MK_CS" input
+			(at 50.8 99.06 0)
+			(uuid "0ff7f30d-98b4-4e51-b5f6-fd5bc8d25a76")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MK_INT" input
+			(at 50.8 101.6 0)
+			(uuid "75af5978-f683-45f3-962c-8462a872cb7c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MK_MISO" input
+			(at 50.8 104.14 0)
+			(uuid "aafd6052-d172-452c-a393-27137cb53ef3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MK_MOSI" input
+			(at 50.8 106.68 0)
+			(uuid "0ee5bbfc-ef4d-454a-8d19-f4c08c46f660")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MK_PWM" input
+			(at 50.8 109.22 0)
+			(uuid "ff9d7ead-c217-4507-be89-151b9a09dda6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MK_RST" input
+			(at 50.8 111.76 0)
+			(uuid "4a6a5d78-4fc0-41a9-a64e-62439cc284d7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MK_RX" input
+			(at 50.8 114.3 0)
+			(uuid "9eaa44c9-d599-41bc-a0f3-244d730c10de")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MK_SCK" input
+			(at 50.8 116.84 0)
+			(uuid "8cae83dd-756a-433e-9a8b-da8b9f095e02")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MK_SCL" input
+			(at 50.8 119.38 0)
+			(uuid "4cfc73e8-934a-489b-914c-2db2231432a6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MK_SDA" input
+			(at 50.8 121.92 0)
+			(uuid "eb8d3301-6668-467d-afbd-a883d7d22b67")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MK_TX" input
+			(at 50.8 124.46 0)
+			(uuid "bc16daa0-a556-4532-ba5a-f7da1fa69625")
 			(effects
 				(font
 					(size 1.27 1.27)
