@@ -832,20 +832,12 @@
 		(uuid "6808e977-59e5-49b2-9d48-ad030d626365")
 	)
 	(no_connect
-		(at 114.3 92.71)
-		(uuid "68df4011-2965-4f50-9169-789b6e8eabc5")
-	)
-	(no_connect
 		(at 114.3 80.01)
 		(uuid "8f7bb0b2-648a-4681-b323-2f36d3a99931")
 	)
 	(no_connect
 		(at 114.3 74.93)
 		(uuid "acf0caa9-dcc7-4760-bf0f-5c1e20c895f0")
-	)
-	(no_connect
-		(at 114.3 95.25)
-		(uuid "d30a34ef-ea80-45cc-95ba-f95f948b4c85")
 	)
 	(wire
 		(pts
@@ -899,6 +891,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 95.25) (xy 90.17 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4464ddd4-8fc0-4266-9796-7eef748efd6f")
+	)
+	(wire
+		(pts
 			(xy 119.38 54.61) (xy 119.38 52.07)
 		)
 		(stroke
@@ -906,6 +908,16 @@
 			(type default)
 		)
 		(uuid "49cac47b-1f90-4d7e-b6ff-8ce7b0c7ca59")
+	)
+	(wire
+		(pts
+			(xy 73.66 92.71) (xy 114.3 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "554219e9-1e9a-428b-bee1-eedf5fd4e11a")
 	)
 	(wire
 		(pts
@@ -966,6 +978,16 @@
 			(type default)
 		)
 		(uuid "8780c18a-616d-4bfd-92c3-97d229946d4b")
+	)
+	(wire
+		(pts
+			(xy 62.23 92.71) (xy 66.04 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b056037-d19c-482b-bd32-5b698ab09035")
 	)
 	(wire
 		(pts
@@ -1128,6 +1150,17 @@
 		)
 		(uuid "1e8b469b-88f2-4c1e-a889-489cafc4b4d0")
 	)
+	(hierarchical_label "ESP_BOOT"
+		(shape input)
+		(at 90.17 95.25 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1f0a7e2f-611f-4dbc-afc1-c8f6700efc18")
+	)
 	(hierarchical_label "ESP_TX"
 		(shape output)
 		(at 152.4 69.85 0)
@@ -1193,6 +1226,17 @@
 			(justify right)
 		)
 		(uuid "7ccf1933-4a4d-4d04-b511-3569cbd61984")
+	)
+	(hierarchical_label "3V3"
+		(shape input)
+		(at 62.23 92.71 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9fe70cb0-9333-49fd-8a30-03777c6f3136")
 	)
 	(hierarchical_label "ESP_SS"
 		(shape input)
@@ -1306,6 +1350,93 @@
 	)
 	(symbol
 		(lib_id "Device:C")
+		(at 83.82 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "27beff6c-6051-4467-b0ba-623968b620a8")
+		(property "Reference" "C25"
+			(at 87.63 72.3899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 87.63 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 84.7852 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/729/CL05B104KA5NNNC_Spec.pdf"
+			(at 83.82 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 0.1UF 25V X7R 0402"
+			(at 83.82 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "CL05B104KA5NNNC"
+			(at 83.82 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Provider" "Digikey"
+			(at 83.82 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "303a550d-4879-4a81-bb75-d7d65c9cc5d6")
+		)
+		(pin "2"
+			(uuid "695fbd53-64f1-4b5c-a6e7-4ceab52fbbed")
+		)
+		(instances
+			(project "RP_devBoard"
+				(path "/3efb3214-cf20-4475-a403-c426a77bfef6/ae60b799-78d5-45ce-add1-9e61037e964b"
+					(reference "C25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
 		(at 105.41 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1367,7 +1498,7 @@
 				(hide yes)
 			)
 		)
-		(property "Provider" ""
+		(property "Provider" "Digikey"
 			(at 105.41 48.26 0)
 			(effects
 				(font
@@ -1454,7 +1585,7 @@
 				(hide yes)
 			)
 		)
-		(property "Provider" ""
+		(property "Provider" "Digikey"
 			(at 119.38 48.26 0)
 			(effects
 				(font
@@ -1479,43 +1610,33 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 83.82 73.66 0)
+		(lib_id "Device:R")
+		(at 69.85 92.71 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "64283b19-dc5d-4931-b5bf-37baccca5370")
-		(property "Reference" "C25"
-			(at 87.63 72.3899 0)
+		(fields_autoplaced yes)
+		(uuid "6eae72a7-63d1-4b5b-959c-182f79d2873c")
+		(property "Reference" "R23"
+			(at 69.85 86.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "1uF"
-			(at 87.63 74.93 0)
+		(property "Value" "10k"
+			(at 69.85 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 84.7852 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/3584/CL10B105KP8NNNC_Spec.pdf"
-			(at 83.82 73.66 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 69.85 90.932 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1523,8 +1644,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 1UF 10V X7R 0603"
-			(at 83.82 73.66 0)
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
+			(at 69.85 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1532,8 +1653,17 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "CL10B105KP8NNNC"
-			(at 83.82 73.66 0)
+		(property "Description" "RES 10K OHM 1% 1/10W 0603"
+			(at 69.85 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "RC0603FR-0710KL"
+			(at 69.85 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1542,7 +1672,7 @@
 			)
 		)
 		(property "Provider" "Digikey"
-			(at 83.82 73.66 0)
+			(at 69.85 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1551,15 +1681,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "a0a982f3-bb18-41a2-81ac-a6a2debf2931")
+			(uuid "0206e6c4-8d3c-4966-8018-3c9321fe95bf")
 		)
 		(pin "2"
-			(uuid "57166742-f836-4d3c-9af9-0ceb6537b73b")
+			(uuid "b04760ca-f220-4eaf-b4b6-5c89c50ef641")
 		)
 		(instances
 			(project "RP_devBoard"
 				(path "/3efb3214-cf20-4475-a403-c426a77bfef6/ae60b799-78d5-45ce-add1-9e61037e964b"
-					(reference "C25")
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -1620,7 +1750,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" ""
+		(property "Part Number" "ESP32-C3-WROOM-02-H4"
 			(at 129.54 85.09 0)
 			(effects
 				(font
@@ -1629,7 +1759,7 @@
 				(hide yes)
 			)
 		)
-		(property "Provider" ""
+		(property "Provider" "Digikey"
 			(at 129.54 85.09 0)
 			(effects
 				(font
