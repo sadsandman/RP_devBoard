@@ -839,6 +839,14 @@
 		(at 114.3 74.93)
 		(uuid "acf0caa9-dcc7-4760-bf0f-5c1e20c895f0")
 	)
+	(no_connect
+		(at 114.3 102.87)
+		(uuid "b4b6e337-e62e-4eae-9d65-aa3cac50b22e")
+	)
+	(no_connect
+		(at 114.3 100.33)
+		(uuid "d1a7c245-247a-4dc1-941c-cc3aaed220b3")
+	)
 	(wire
 		(pts
 			(xy 107.95 87.63) (xy 114.3 87.63)
@@ -951,16 +959,6 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 102.87) (xy 114.3 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "74a0bcac-74d4-485f-9496-10e3a9ec474e")
-	)
-	(wire
-		(pts
 			(xy 83.82 80.01) (xy 83.82 77.47)
 		)
 		(stroke
@@ -1018,16 +1016,6 @@
 			(type default)
 		)
 		(uuid "adefe758-1010-4b14-97a2-e51b24839563")
-	)
-	(wire
-		(pts
-			(xy 107.95 100.33) (xy 114.3 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c8d02f0f-63be-4054-9406-1ad4b76d1ed2")
 	)
 	(wire
 		(pts
@@ -1183,17 +1171,6 @@
 		)
 		(uuid "54c7fe1d-f35c-47a6-997f-0cb964a4e8e6")
 	)
-	(hierarchical_label "ESP_USB_DP"
-		(shape bidirectional)
-		(at 107.95 102.87 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "55557ba2-ac38-4056-9499-9d130377a4f2")
-	)
 	(hierarchical_label "ESP_MISO"
 		(shape input)
 		(at 107.95 77.47 180)
@@ -1215,17 +1192,6 @@
 			(justify right)
 		)
 		(uuid "6dcca9bd-35b9-43e9-b818-2270fb2f82cd")
-	)
-	(hierarchical_label "ESP_USB_DM"
-		(shape bidirectional)
-		(at 107.95 100.33 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "7ccf1933-4a4d-4d04-b511-3569cbd61984")
 	)
 	(hierarchical_label "3V3"
 		(shape input)
