@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 0.54,
-          "width": 0.54
+          "drill": 1.0,
+          "height": 2.8,
+          "width": 2.8
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.15
+          "min_clearance": 0.0
         }
       },
       "diff_pair_dimensions": [
@@ -708,27 +708,27 @@
       "Root"
     ],
     [
-      "dad66b12-0e1e-4a76-b43a-b369bbb129a6",
+      "a6247f93-6950-41b7-9157-645e57be43d7",
       "RP2350B"
     ],
     [
-      "ae60b799-78d5-45ce-add1-9e61037e964b",
+      "7b15b1a5-e5ef-40fa-9d86-3d35cc14cf38",
       "ESP32"
     ],
     [
-      "3930103f-b854-406a-9821-18948625639a",
+      "6722572d-c2cd-4368-8a7b-ed26cac4cc13",
       "USB_PORTS"
     ],
     [
-      "d2850492-02e9-49f7-8878-7ec55c75ab1e",
+      "f94e9cec-54f7-45dd-9630-aa4b6ec1eb86",
       "TC2030_PORTS"
     ],
     [
-      "1eeb3bc9-a9b9-41e5-afbc-054102fc6bee",
+      "4345d272-24fe-4232-9932-f7a6c29ab072",
       "PERIPHERICS"
     ],
     [
-      "c6764cad-48c1-4f00-be75-4674e72510ab",
+      "62113720-2c63-473f-95b5-ca8de1b9712b",
       "SENSOR"
     ],
     [
