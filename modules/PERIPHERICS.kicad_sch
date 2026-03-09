@@ -1404,7 +1404,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.6538 119.38) (xy 229.87 119.38)
+			(xy 223.52 119.38) (xy 229.87 119.38)
 		)
 		(stroke
 			(width 0)
@@ -2045,7 +2045,7 @@
 	)
 	(hierarchical_label "MK_RST2"
 		(shape output)
-		(at 226.6538 119.38 180)
+		(at 223.52 119.38 180)
 		(effects
 			(font
 				(size 1.27 1.27)

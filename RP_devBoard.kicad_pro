@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.0
+          "min_clearance": 0.15
         }
       },
       "diff_pair_dimensions": [
@@ -58,7 +58,44 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "hole_clearance|99255000|68815000|70fcbe87-319b-4762-b766-df6e745ebc46|3356df85-aad9-4806-bc18-d8a83c2684e8",
+          "Part of component"
+        ],
+        [
+          "hole_clearance|99255000|68815000|70fcbe87-319b-4762-b766-df6e745ebc46|86bf807d-8a32-447a-bab5-35cbd6a42911",
+          "Part of component"
+        ],
+        [
+          "hole_clearance|99255000|74915000|5276bd81-75a1-4ca7-a256-af249d41ac51|ab57e17d-080d-4a21-9719-ae63bf770b8b",
+          "Part of component"
+        ],
+        [
+          "hole_clearance|99255000|74915000|5276bd81-75a1-4ca7-a256-af249d41ac51|c11f0c82-9e8e-4e9f-b993-db15036f8ade",
+          "Part of component"
+        ],
+        [
+          "items_not_allowed|204000000|107500000|86232a05-820e-4ef1-8def-b754872d3569|00000000-0000-0000-0000-000000000000",
+          "Simple hole"
+        ],
+        [
+          "items_not_allowed|204000000|52500000|cd4244d8-b83b-4f1d-8aaa-9c0928b7aecd|00000000-0000-0000-0000-000000000000",
+          "Simple Hole"
+        ],
+        [
+          "lib_footprint_mismatch|199675000|71725000|ac725d74-d7a7-43cb-bdc5-a8953d245c0e|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "starved_thermal|144155000|70745000|f62c960a-5c09-494a-9564-5525f8cef74f|9b89511a-bbde-45e7-ae69-a3de080561e7|F.Cu",
+          "one spoke necessary"
+        ],
+        [
+          "starved_thermal|145435000|64375000|2ae98c5d-411f-4ed5-9e96-e72adef4e58c|78fba5e1-e509-459c-9fe8-04493e7cc626|F.Cu",
+          "Spoke 1"
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -108,7 +145,7 @@
         "starved_thermal": "error",
         "text_height": "warning",
         "text_on_edge_cuts": "error",
-        "text_thickness": "warning",
+        "text_thickness": "ignore",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
         "track_angle": "error",
@@ -135,10 +172,10 @@
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.3,
+        "min_through_hole_diameter": 0.2,
         "min_track_width": 0.0,
         "min_via_annular_width": 0.1,
-        "min_via_diameter": 0.5,
+        "min_via_diameter": 0.4,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
@@ -545,7 +582,7 @@
       "idf": "",
       "netlist": "",
       "plot": "",
-      "pos_files": "",
+      "pos_files": "fabrication/",
       "specctra_dsn": "",
       "step": "",
       "svg": "",
@@ -655,7 +692,7 @@
           "show": false
         }
       ],
-      "filter_string": "",
+      "filter_string": "R",
       "group_symbols": true,
       "include_excluded_from_bom": true,
       "name": "",
@@ -736,5 +773,9 @@
       "POWER"
     ]
   ],
-  "text_variables": {}
+  "text_variables": {
+    "NAME": "VITTO TORRES",
+    "PROJECT": "RP_DEVBOARD",
+    "VERSION": "V1.0.0"
+  }
 }

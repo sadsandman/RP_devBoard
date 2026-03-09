@@ -4,6 +4,11 @@
 	(generator_version "9.0")
 	(uuid "3efb3214-cf20-4475-a403-c426a77bfef6")
 	(paper "A4")
+	(title_block
+		(title "${PROJECT}")
+		(date "2026-03-08")
+		(rev "${VERSION}")
+	)
 	(lib_symbols
 		(symbol "Mechanical:MountingHole"
 			(pin_names
@@ -232,7 +237,7 @@
 		(members "RP_MISO" "RP_MOSI" "RP_CLK" "RP_SS0" "RP_SS1" "RP_SS2")
 	)
 	(bus_alias "RP_TC2030"
-		(members "RP_NRESET" "RP_SWO" "RP_SWD" "RP_SWCLK")
+		(members "RP_NRESET" "RP_SWD" "RP_SWCLK")
 	)
 	(bus_alias "USB"
 		(members "USB0_DP" "USB0_DN" "USB1_DP" "USB1_DM")
@@ -370,7 +375,7 @@
 		(uuid "3df9359f-e631-4455-97e3-a2371c9f1fed")
 	)
 	(bus_entry
-		(at 67.31 96.52)
+		(at 67.31 93.98)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
@@ -649,15 +654,6 @@
 		(uuid "ac8022c3-c26e-483b-8864-f16ba0d4e6da")
 	)
 	(bus_entry
-		(at 87.63 55.88)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aceafd9a-3cc7-40f0-b52d-22cfab593b24")
-	)
-	(bus_entry
 		(at 67.31 107.95)
 		(size -2.54 2.54)
 		(stroke
@@ -694,7 +690,7 @@
 		(uuid "b7001461-f558-4938-a31b-690b930eca5d")
 	)
 	(bus_entry
-		(at 87.63 58.42)
+		(at 87.63 55.88)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -712,7 +708,7 @@
 		(uuid "bdedb4ad-751d-4be3-97db-1814b60f8bf0")
 	)
 	(bus_entry
-		(at 87.63 60.96)
+		(at 87.63 58.42)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -721,22 +717,13 @@
 		(uuid "cabb43ec-bfd3-47f3-bc2d-aa3dcbd4d531")
 	)
 	(bus_entry
-		(at 67.31 99.06)
+		(at 67.31 96.52)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "d21a23a0-7c0f-4706-94dd-a7a5778dc838")
-	)
-	(bus_entry
-		(at 67.31 93.98)
-		(size -2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d2ddeb84-c080-4e7f-91d6-563b1a050e78")
 	)
 	(bus_entry
 		(at 236.22 99.06)
@@ -924,7 +911,7 @@
 	)
 	(bus
 		(pts
-			(xy 87.63 60.96) (xy 87.63 90.17)
+			(xy 87.63 58.42) (xy 87.63 90.17)
 		)
 		(stroke
 			(width 0)
@@ -1062,16 +1049,6 @@
 		)
 		(uuid "371de2a2-e739-4feb-8617-647aaf9e2a01")
 	)
-	(bus
-		(pts
-			(xy 67.31 93.98) (xy 67.31 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3e4d76f9-1319-4aab-bb46-a20e018f13ba")
-	)
 	(wire
 		(pts
 			(xy 238.76 91.44) (xy 248.92 91.44)
@@ -1144,7 +1121,7 @@
 	)
 	(bus
 		(pts
-			(xy 67.31 96.52) (xy 67.31 99.06)
+			(xy 67.31 93.98) (xy 67.31 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1342,16 +1319,6 @@
 		)
 		(uuid "67f4c5f5-2847-4184-8bb4-b89ff6dfaab7")
 	)
-	(wire
-		(pts
-			(xy 54.61 96.52) (xy 64.77 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6ab1825a-5871-478c-be5c-7f29a49b8acf")
-	)
 	(bus
 		(pts
 			(xy 160.02 88.9) (xy 160.02 91.44)
@@ -1411,16 +1378,6 @@
 			(type default)
 		)
 		(uuid "776db7e2-66fb-4205-9f45-358349ee7968")
-	)
-	(wire
-		(pts
-			(xy 160.02 107.95) (xy 158.75 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7ba601a1-edc3-4958-ae8f-d97af9a04831")
 	)
 	(wire
 		(pts
@@ -1522,16 +1479,6 @@
 		)
 		(uuid "874ce913-2535-4127-a3ec-5b7c480a8200")
 	)
-	(bus
-		(pts
-			(xy 87.63 53.34) (xy 87.63 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "87e52743-c24d-449c-ad38-e91eb7a1c49f")
-	)
 	(wire
 		(pts
 			(xy 238.76 99.06) (xy 248.92 99.06)
@@ -1554,7 +1501,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 63.5) (xy 102.87 63.5)
+			(xy 90.17 60.96) (xy 102.87 60.96)
 		)
 		(stroke
 			(width 0)
@@ -1564,7 +1511,7 @@
 	)
 	(bus
 		(pts
-			(xy 87.63 55.88) (xy 87.63 58.42)
+			(xy 87.63 53.34) (xy 87.63 55.88)
 		)
 		(stroke
 			(width 0)
@@ -1634,7 +1581,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 99.06) (xy 64.77 99.06)
+			(xy 54.61 96.52) (xy 64.77 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1734,7 +1681,7 @@
 	)
 	(bus
 		(pts
-			(xy 87.63 58.42) (xy 87.63 60.96)
+			(xy 87.63 55.88) (xy 87.63 58.42)
 		)
 		(stroke
 			(width 0)
@@ -1914,7 +1861,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 101.6) (xy 64.77 101.6)
+			(xy 54.61 99.06) (xy 64.77 99.06)
 		)
 		(stroke
 			(width 0)
@@ -2204,16 +2151,6 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 58.42) (xy 102.87 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e0ddfaf8-2fa5-4670-aaea-240cacad07fb")
-	)
-	(wire
-		(pts
 			(xy 148.59 121.92) (xy 165.1 121.92)
 		)
 		(stroke
@@ -2344,7 +2281,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 60.96) (xy 102.87 60.96)
+			(xy 90.17 58.42) (xy 102.87 58.42)
 		)
 		(stroke
 			(width 0)
@@ -2373,7 +2310,7 @@
 		(uuid "ffc9087a-9c47-4a18-93c4-d42a5dc0235f")
 	)
 	(label "RP_SWD"
-		(at 54.61 99.06 0)
+		(at 54.61 96.52 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2403,7 +2340,7 @@
 		(uuid "1113d976-8cd2-4af3-881a-487981fba8b9")
 	)
 	(label "RP_SWD"
-		(at 90.17 60.96 0)
+		(at 90.17 58.42 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2411,16 +2348,6 @@
 			(justify left bottom)
 		)
 		(uuid "17181456-4401-4e36-a81e-c01f104918ef")
-	)
-	(label "RP_SWO"
-		(at 54.61 96.52 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "290213f9-fb56-4deb-9f71-7dd435852672")
 	)
 	(label "SCL"
 		(at 177.8 132.08 0)
@@ -2882,16 +2809,6 @@
 		)
 		(uuid "bd4574fa-4e05-4c86-b3c9-3b3846a8ac8e")
 	)
-	(label "RP_SWO"
-		(at 90.17 58.42 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c01c138a-4538-4373-aad4-f4a102a838bf")
-	)
 	(label "RP_MOSI"
 		(at 186.69 45.72 180)
 		(effects
@@ -2943,7 +2860,7 @@
 		(uuid "cd95a2e1-0c5b-4406-9048-277d17290837")
 	)
 	(label "RP_SWCLK"
-		(at 90.17 63.5 0)
+		(at 90.17 60.96 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2953,7 +2870,7 @@
 		(uuid "ce21c23d-e0af-47ba-9b8e-b3efe6a3113c")
 	)
 	(label "RP_SWCLK"
-		(at 54.61 101.6 0)
+		(at 54.61 99.06 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3100,7 +3017,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
 			(at 148.59 185.42 0)
 			(effects
 				(font
@@ -3362,7 +3279,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
 			(at 125.73 185.42 0)
 			(effects
 				(font
@@ -3624,7 +3541,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
 			(at 148.59 177.8 0)
 			(effects
 				(font
@@ -3952,7 +3869,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
 			(at 125.73 177.8 0)
 			(effects
 				(font
@@ -4804,7 +4721,7 @@
 			)
 		)
 		(pin "RP_SWCLK" input
-			(at 102.87 63.5 180)
+			(at 102.87 60.96 180)
 			(uuid "24d5ab92-70ab-47ee-a221-518925dbce04")
 			(effects
 				(font
@@ -4813,18 +4730,8 @@
 				(justify left)
 			)
 		)
-		(pin "RPB_SWO" output
-			(at 102.87 58.42 180)
-			(uuid "5bf18ad8-bcf1-4f92-8e80-9ac6b30c78b8")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "RP_SWD" bidirectional
-			(at 102.87 60.96 180)
+			(at 102.87 58.42 180)
 			(uuid "c0a0455f-a53a-4452-8554-6cfea2a019a4")
 			(effects
 				(font
@@ -5125,18 +5032,8 @@
 				(justify right)
 			)
 		)
-		(pin "RP_SWO" output
-			(at 54.61 96.52 0)
-			(uuid "21df47d0-869b-47af-b759-2a093b563b9f")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "RP_SWD" bidirectional
-			(at 54.61 99.06 0)
+			(at 54.61 96.52 0)
 			(uuid "de5040bf-1e9d-432f-8f5b-f3d0fdcefd0c")
 			(effects
 				(font
@@ -5146,7 +5043,7 @@
 			)
 		)
 		(pin "RP_SWCLK" output
-			(at 54.61 101.6 0)
+			(at 54.61 99.06 0)
 			(uuid "5ba739e1-fed5-4b4e-915e-cdf7e9285943")
 			(effects
 				(font
